@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SingAppSys"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>b5u6UVy7gMAaXeB8xMyWw5sh6KE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>M2EOziLG95ecfsoDcyHPdLMQ0aaDqQdXMLTny1xjsvt356s8V2/UVpLp9WqkwohOg16cdd9/hWebxLos7KtQr8KOfjLugzKmHateLJJvkPQtx9YaIIaoc6G1MWreJFS3Rr6xoQ5mxLXD+lJSMA7+aEa8mXXa1jXaKC0HJ6Jp9PI4VXIWyOYDX9oINVt+58OlD7gaZPXCHor+KX2JwnS8iSttRqcgWo3CxiL2iS1Ib8JOUTwd21IicBqN/Rj18joVoM4RKRP51IYEmSOgyll5sf9fy3uvk3WamLdkT7h6moP+lT8QHc80d/lwezbVYKZU0KPScjMogBtrO3pBUh0Ayw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=||USO TRIBUTARIO|| AIRCLIM PERU E.I.R.L. CDT 20605247858, OU=20605247858, OU=EREP_SUNAT_2024000575204, 2.5.4.97=#0C114E545250452D3230363035323437383538, O=AIRCLIM PERU E.I.R.L., L=SAN MARTIN DE PORRES, ST=LIMA-LIMA, C=PE</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-19</cbc:ID>
+  <cbc:IssueDate>2024-11-27</cbc:IssueDate>
+  <cbc:IssueTime>11:13:24</cbc:IssueTime>
+  <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="1001" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000">TRES MIL QUINIENTOS CUATRO CON 60/100 SOLES</cbc:Note>
+  <cbc:Note languageLocaleID="2006">Operación sujeta a detracción</cbc:Note>
+  <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+  <cac:OrderReference>
+    <cbc:ID>AML2411-31</cbc:ID>
+  </cac:OrderReference>
+  <cac:Signature>
+    <cbc:ID>SF001-19</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20605247858</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>AIRCLIM PERU E.I.R.L.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#SF001-19</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20605247858</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>AIRCLIM</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>AIRCLIM PERU E.I.R.L.</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20612428795</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>JALANDAR CINEMAS SOCIEDAD ANONIMA CERRADA</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentMeans>
+    <cbc:ID>Detraccion</cbc:ID>
+    <cbc:PaymentMeansCode listAgencyName="PE:SUNAT" listName="Medio de pago" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo59">001</cbc:PaymentMeansCode>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>00059132210</cbc:ID>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:ID>Detraccion</cbc:ID>
+    <cbc:PaymentMeansID schemeAgencyName="PE:SUNAT" schemeName="Codigo de detraccion" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo54">020</cbc:PaymentMeansID>
+    <cbc:PaymentPercent>12.00</cbc:PaymentPercent>
+    <cbc:Amount currencyID="PEN">421.00</cbc:Amount>
+  </cac:PaymentTerms>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">3083.60</cbc:Amount>
+  </cac:PaymentTerms>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">3083.60</cbc:Amount>
+    <cbc:PaymentDueDate>2025-01-26</cbc:PaymentDueDate>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">534.60</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">2970.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">534.60</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">2970.00</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">3504.60</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">3504.60</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">22</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">2970.00</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">159.30</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">534.60</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">2970.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">534.60</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[POR EL SERVICIO DE MP MANTENIMIENTO PREVENTIVO DE AIRE ACONDICIONADO MINI SPLIT - PISO TECHO - DUCTO DE 12,000 A 60,000 BTU/HR]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>SER-00002</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">135.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
